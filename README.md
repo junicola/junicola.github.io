@@ -1,2 +1,2 @@
 # junicola.github.io
-My portfolio website
+WORK IN PROGRESS - My portfolio website
