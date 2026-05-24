@@ -3,6 +3,7 @@
   display: flex;
   align-items: center;
   padding: 8rem 0 4rem;
+  position: relative;
 }
 
 .hero__inner {
@@ -13,7 +14,7 @@
 }
 
 .hero__greeting {
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   color: var(--text-secondary);
   margin-bottom: 0.4rem;
   font-weight: 400;
@@ -21,8 +22,8 @@
 
 .hero__name {
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 6vw, 4.2rem);
-  font-weight: 800;
+  font-size: clamp(2.5rem, 7vw, 4.2rem);
+  font-weight: 500;
   line-height: 1.05;
   color: var(--accent-blue);
   letter-spacing: -0.03em;
@@ -68,7 +69,8 @@
   background: var(--accent-pink);
 }
 
-.btn--white:hover, .btn--pink:hover {
+.btn--white:hover,
+.btn--pink:hover {
   transform: scale(0.95);
 }
 
@@ -77,21 +79,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.hero__image img {
-  width: 100%;
-  max-width: 480px;
-  object-fit: contain;
+.hero__image svg {
+  width: 435px;
+  max-width: 453px;
+  height: auto;
+}
+
+/* Hero stars overlay */
+.hero__stars-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: -1;
 }
 
 @media (max-width: 768px) {
-  .hero { padding: 7rem 0 3rem; min-height: auto; }
+  .hero {
+    padding: 7rem 0 3rem;
+    min-height: auto;
+  }
+
   .hero__inner {
     grid-template-columns: 1fr;
     gap: 2.5rem;
     text-align: center;
   }
-  .hero__ctas { justify-content: center; }
-  .hero__image { order: -1; }
+
+  .hero__ctas {
+    justify-content: center;
+  }
+
+  .hero__image {
+    order: -1;
+  }
+
+  .hero__image svg {
+    width: 100%;
+  }
 }

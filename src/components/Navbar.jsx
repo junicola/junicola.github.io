@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import logoIcon from '../assets/code.png';
+import CodeLogo from '../assets/CodeLogo.png';
 import './Navbar.css'
 
 export default function Navbar({ nav, lang, onToggleLang }) {
@@ -10,9 +10,9 @@ export default function Navbar({ nav, lang, onToggleLang }) {
 
   return (
     <header className="navbar glass">
-      <div className="navbar__inner container">
+      <div className="navbar__inner">
         <a href="#hero" className="navbar__logo">
-          <img src={logoIcon} alt={nav.logoAlt} />
+          <img src={CodeLogo} alt={nav.logoAlt} />
         </a>
         <nav className="navbar__links">
           {nav.links.map((link, i) => (
