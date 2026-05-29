@@ -52,7 +52,7 @@ export const data = {
             "Conecte sua conta Last.fm, obtenha estatísticas com base no que você ouve e compartilhe banners incríveis com seus amigos!",
           tech: ["React", "TypeScript", "Next.js"],
           url: "https://music-stats-generator.vercel.app/",
-          image: "public/projects/cover-music-stats.png",
+          image: "/projects/cover-music-stats.png",
         },
         {
           id: 2,
@@ -61,7 +61,7 @@ export const data = {
             "Uma roda interativa para escolher aleatoriamente entre uma lista de opções — perfeita para decisões, sorteios e jogos.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://junicola.github.io/wheel/",
-          image: "public/projects/cover-wheel.jpg",
+          image: "/projects/cover-wheel.jpg",
         },
         {
           id: 3,
@@ -70,7 +70,7 @@ export const data = {
             "Aplicação web para compartilhar, avaliar e destacar perguntas. Desenvolvido na NLW - Rocketseat.",
           tech: ["React", "TypeScript", "Firebase", "Sass"],
           url: "https://letmeask-fa059.web.app/",
-          image: "public/projects/cover-let-me-ask.jpg",
+          image: "/projects/cover-let-me-ask.jpg",
         },
         {
           id: 4,
@@ -79,7 +79,7 @@ export const data = {
             "Site para compartilhar informações sobre o Grupo ELLP, um projeto de voluntariado focado na educação lúdica de robótica e programação para crianças.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://grupoellp.com.br/",
-          image: "public/projects/cover-ellp.jpg",
+          image: "/projects/cover-ellp.jpg",
         },
         {
           id: 5,
@@ -88,7 +88,7 @@ export const data = {
             "Aplicativo de busca de CEP brasileiro — digite um CEP e obtenha rua, bairro, cidade e estado com um clique.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://junicola.github.io/search-zipcode/",
-          image: "public/projects/cover-cep.jpg",
+          image: "/projects/cover-cep.jpg",
         },
       ],
     },
@@ -235,7 +235,7 @@ export const data = {
             "Connect your LastFm account, get stats based on what you listen to and share cool banners with your friends!",
           tech: ["React", "TypeScript", "Next.js"],
           url: "https://music-stats-generator.vercel.app/",
-          image: "public/projects/cover-music-stats.png",
+          image: "/projects/cover-music-stats.png",
         },
         {
           id: 2,
@@ -244,7 +244,7 @@ export const data = {
             "An interactive spinning wheel to randomly pick from a list of options — perfect for decisions, giveaways, and games.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://junicola.github.io/wheel/",
-          image: "public/projects/cover-wheel.jpg",
+          image: "/projects/cover-wheel.jpg",
         },
         {
           id: 3,
@@ -253,7 +253,7 @@ export const data = {
             "Web application to share, rate and hightlight questions. Developed at NLW - Rocketseat.",
           tech: ["React", "TypeScript", "Firebase", "Sass"],
           url: "https://letmeask-fa059.web.app/",
-          image: "public/projects/cover-let-me-ask.jpg",
+          image: "/projects/cover-let-me-ask.jpg",
         },
         {
           id: 4,
@@ -262,7 +262,7 @@ export const data = {
             "Website to share information about the Group ELLP, a volunteer project focused on ludic education of robotics and programming for kids.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://grupoellp.com.br/",
-          image: "public/projects/cover-ellp.jpg",
+          image: "/projects/cover-ellp.jpg",
         },
         {
           id: 5,
@@ -271,7 +271,7 @@ export const data = {
             "Brazilian zip code lookup app — type a CEP and get street, neighborhood, city, and state in one click.",
           tech: ["JavaScript", "HTML", "CSS"],
           url: "https://junicola.github.io/search-zipcode/",
-          image: "public/projects/cover-cep.jpg",
+          image: "/projects/cover-cep.jpg",
         },
       ],
     },

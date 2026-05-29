@@ -10,7 +10,7 @@ export default function Navbar({ nav, lang, onToggleLang }) {
     <header className="navbar glass">
       <div className="navbar__inner">
         <a href="#hero" className="navbar__logo">
-          <img src="public/code-logo.png" alt={nav.logoAlt} />
+          <img src="/code-logo.png" alt={nav.logoAlt} />
         </a>
         <nav className="navbar__links">
           {nav.links.map((link, i) => (
