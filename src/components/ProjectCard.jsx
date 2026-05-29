@@ -5,6 +5,7 @@ export default function ProjectCard({ name, description, tech, url, image }) {
   return (
     <a
       href={url}
+      onClick={() => gtag('event', 'click', { event_category: 'project', event_label: name })}
       target="_blank"
       rel="noopener noreferrer"
       className="project-card glass"
