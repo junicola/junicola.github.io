@@ -29,7 +29,7 @@ export default function Contact({ contact }) {
                 <a
                   key={link.icon}
                   href={link.url}
-                  onClick={() => gtag('event', 'click', { event_category: 'contact', event_label: link.label })}
+                  onClick={() => window.gtag('event', 'click', { event_category: 'contact', event_label: link.label })}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="contact__link-card"
