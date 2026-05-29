@@ -1,0 +1,108 @@
+.contact__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+  position: relative;
+}
+
+.contact__subtitle {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.contact__closing {
+  margin-top: 1.5rem;
+  color: var(--accent-pink);
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.contact__overlay-blur {
+  position: absolute;
+  top: 20%;
+  right: 30%;
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.contact__link-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.2rem;
+  transition: border-color 0.2s, background 0.2s, transform 0.2s;
+}
+
+.contact__link-card:hover {
+  border-color: var(--border-hover);
+  background: var(--bg-card-hover);
+  transform: translateX(4px);
+}
+
+.contact__link-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: var(--radius-md);
+  background: var(--accent-soft);
+  border: 1px solid rgba(199, 125, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  flex-shrink: 0;
+}
+
+.contact__link-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.contact__link-label {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--text-primary);
+}
+
+.contact__link-handle {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.contact__link-arrow {
+  color: var(--text-muted);
+  font-size: 1rem;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.contact__link-card:hover .contact__link-arrow {
+  transform: translateX(3px);
+  color: var(--accent-blue);
+}
+
+@media (max-width: 768px) {
+  .contact__inner {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .contact__overlay-blur {
+    top: unset;
+    bottom: -20%;
+    right: -10%;
+  }
+}

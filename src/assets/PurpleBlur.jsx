@@ -1,28 +1,26 @@
 const PurpleBlur = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    width="563"
-    height="501"
     fill="none"
-    viewBox="0 0 563 501"
+    viewBox="0 0 504 452"
   >
     <g filter="url(#filter0_f_6467_3)">
       <g filter="url(#filter1_f_6467_3)">
         <ellipse
-          cx="281.3"
-          cy="250.3"
+          cx="251.544"
+          cy="225.8"
           fill="url(#paint0_linear_6467_3)"
-          fillOpacity="0.48"
-          rx="175.5"
-          ry="144.5"
+          fillOpacity="0.75"
+          rx="145.744"
+          ry="120"
         ></ellipse>
       </g>
     </g>
     <defs>
       <filter
         id="filter0_f_6467_3"
-        width="562.6"
-        height="500.6"
+        width="503.088"
+        height="451.6"
         x="0"
         y="0"
         colorInterpolationFilters="sRGB"
@@ -41,8 +39,8 @@ const PurpleBlur = (props) => (
       </filter>
       <filter
         id="filter1_f_6467_3"
-        width="461"
-        height="399"
+        width="401.488"
+        height="350"
         x="50.8"
         y="50.8"
         colorInterpolationFilters="sRGB"
@@ -61,10 +59,10 @@ const PurpleBlur = (props) => (
       </filter>
       <linearGradient
         id="paint0_linear_6467_3"
-        x1="186.063"
-        x2="407.028"
-        y1="220.3"
-        y2="430.082"
+        x1="172.454"
+        x2="355.955"
+        y1="200.887"
+        y2="375.1"
         gradientUnits="userSpaceOnUse"
       >
         <stop stopColor="#ED9CCC"></stop>

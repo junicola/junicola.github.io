@@ -1,8 +1,7 @@
 .hero {
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  padding: 8rem 0 4rem;
+  padding: 12rem 0 4rem;
   position: relative;
 }
 
@@ -83,8 +82,8 @@
 }
 
 .hero__image svg {
-  width: 435px;
-  max-width: 453px;
+  width: 480px;
+  max-width: 480px;
   height: auto;
 }
 

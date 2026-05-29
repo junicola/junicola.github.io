@@ -1,0 +1,38 @@
+.stack__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  justify-content: flex-start;
+}
+
+.stack__pill {
+  padding: 0.5rem 1.5rem;
+  border-radius: 999px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  border: 1px solid transparent;
+  transition: filter 0.2s;
+  cursor: default;
+  color: var(--bg);
+}
+
+.stack__pill:hover {
+  filter: brightness(0.8);
+  scale: 0.95;
+}
+
+.stack__pill:nth-child(4n+1) {
+  background: var(--accent-blue);
+}
+
+.stack__pill:nth-child(4n+2) {
+  background: var(--accent-pink);
+}
+
+.stack__pill:nth-child(4n+3) {
+  background: var(--accent-purple);
+}
+
+.stack__pill:nth-child(4n+4) {
+  background: var(--accent-yellow);
+}

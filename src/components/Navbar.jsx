@@ -1,18 +1,16 @@
-import React, { useState, useEffect } from 'react'
-import CodeLogo from '../assets/CodeLogo.png';
+import React, { useState } from 'react'
 import './Navbar.css'
 
 export default function Navbar({ nav, lang, onToggleLang }) {
-  const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const sectionIds = ['hero', 'sobre', 'projetos', 'experiencia', 'contato']
+  const sectionIds = ['hero', 'about', 'projects', 'experience', 'contact']
 
   return (
     <header className="navbar glass">
       <div className="navbar__inner">
         <a href="#hero" className="navbar__logo">
-          <img src={CodeLogo} alt={nav.logoAlt} />
+          <img src="public/code-logo.png" alt={nav.logoAlt} />
         </a>
         <nav className="navbar__links">
           {nav.links.map((link, i) => (
