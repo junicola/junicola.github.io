@@ -37,8 +37,8 @@ export const data = {
         "Vue",
         "Angular",
         "Sass",
+        "Next.js",
         "Git",
-        "Docker",
       ],
     },
     projects: {
@@ -108,7 +108,7 @@ export const data = {
             "Performance Web & SEO",
             "Code Reviews & Planejamento",
           ],
-          tech: ["React", "Vue", "TypeScript", "Tailwind", "Sass"],
+          tech: ["React", "Vue", "Angular", "TypeScript", "Tailwind", "Sass"],
         },
         {
           period: "2020 – 2021",
@@ -123,7 +123,7 @@ export const data = {
             "Web Core Vitals",
             "Otimização de Performance",
           ],
-          tech: ["WordPress", "JavaScript", "CSS"],
+          tech: ["JavaScript", "CSS", "HTML", "WordPress"],
         },
         {
           period: "2019 – 2020",
@@ -138,7 +138,7 @@ export const data = {
             "Next.js & Node.js",
             "Google Apps Script e Data Studio",
           ],
-          tech: ["React Native", "Next.js", "Sass"],
+          tech: ["React", "React Native", "Next.js", "JavaScript"],
         },
         {
           period: "2018 – 2019",
@@ -220,8 +220,8 @@ export const data = {
         "Vue",
         "Angular",
         "Sass",
+        "Next.js",
         "Git",
-        "Docker",
       ],
     },
     projects: {
@@ -291,7 +291,7 @@ export const data = {
             "Web Performance & SEO",
             "Code Reviews & Planning",
           ],
-          tech: ["React", "Vue", "TypeScript", "Tailwind", "Sass"],
+          tech: ["React", "Vue", "TypeScript", "Angular", "Tailwind", "Sass"],
         },
         {
           period: "2020 – 2021",
@@ -306,7 +306,7 @@ export const data = {
             "Web Core Vitals",
             "Performance Optimization",
           ],
-          tech: ["WordPress", "JavaScript", "CSS"],
+          tech: ["JavaScript", "CSS", "HTML", "WordPress"],
         },
         {
           period: "2019 – 2020",
@@ -321,7 +321,7 @@ export const data = {
             "Next.js & Node.js",
             "Google Apps Script and Data Studio",
           ],
-          tech: ["React Native", "Next.js", "Sass"],
+          tech: ["React", "React Native", "Next.js", "JavaScript"],
         },
         {
           period: "2018 – 2019",
